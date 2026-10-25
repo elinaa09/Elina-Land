@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../assets/starbg.jpg");
+  background-size: cover;        
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+}
+
+.bg-img{
+height: 500px;
+width: auto;
+}
+
+.wave1-img{
+    height: 200px;
+    width: auto;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;           
+  justify-content: center;
+  gap: 40px;                     /* space between image and text */
+  padding: 24px;
+}
+
+.person {
+  height: 80vh;                  
+  width: auto;
+}
+
+.text h1 {
+  font-size: 3rem;
+}
+
